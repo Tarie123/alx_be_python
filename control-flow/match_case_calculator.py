@@ -1,16 +1,17 @@
-num1 = int (input("Enter the first number: "))
-num2 = int (input("Enter the second number: "))
-operation = str(input("Choose the operation (+, -, *, /): "))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+operation = input("Choose the operation (+, -, *, /): ")
 
-if operation == "+":
-    sum = num1 + num2
-elif operation == "-":
-    sum = num1 - num2
-elif operation == "*":
-    sum = num1 * num2
+match operation:
+    case "+":
+        result = num1 + num2
+    case "-":
+        result = num1 - num2
+    case "*":
+        result = num1 * num2
+    case "/":
+        result = num1 / num2
+    case _:
+        result = "Invalid operation"
 
-elif operation == "/":
-    sum = num1 / num2
-
-print ("The result is", sum)
- 
+print("The result is", result)
