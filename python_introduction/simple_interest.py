@@ -1,7 +1,7 @@
-P = 1000
-R = 0.05 
-T = 3 
+Principle = 1000
+Rate = 0.05 
+Time = 3 
 
-I = P * R * T
+I = Principle * Rate * Time
 
 print ("Intrest is", I)
