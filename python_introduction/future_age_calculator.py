@@ -1,4 +1,4 @@
-age = int(input("Enter the your age: "))  # Convert input to integer
+age = int(input("How old are you: "))  # Convert input to integer
 ages = age + 27
 
 
