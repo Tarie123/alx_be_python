@@ -1,5 +1,5 @@
 hours = 2
-secondphr = 3600
-seconds = hours * secondphr
+
+seconds = hours * 3600
 
 print ("2 hour(s) is", seconds, "seconds.")
