@@ -1,7 +1,7 @@
-principal = 1000
-rate = 0.05 
-time = 3 
+P = 1000
+R = 0.05 
+T = 3 
 
-intrest = principal * rate * time
+I = P * R * T
 
-print ("Intrest is", intrest)
+print ("Intrest is", I)
