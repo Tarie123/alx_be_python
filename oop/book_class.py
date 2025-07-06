@@ -1,4 +1,4 @@
-# book_class.py
+
 
 class Book:
     def __init__(self, title: str, author: str, year: int):
@@ -9,11 +9,11 @@ class Book:
 
     def __del__(self):
         """Destructor: Prints a message when the book object is deleted."""
-        print(f"Deleting '{self.title}'")
+        print(f"Deleting {self.title}")
 
     def __str__(self):
         """String representation: User-friendly description of the book."""
-        return f"'{self.title}' by {self.author}, published in {self.year}"
+        return f"{self.title} by {self.author}, published in {self.year}"
 
     def __repr__(self):
         """Official representation: Code-like string that can recreate the object."""
@@ -26,4 +26,5 @@ if __name__ == "__main__":
     print(str(book1))     
     print(repr(book1))    
 
+  
     del book1
